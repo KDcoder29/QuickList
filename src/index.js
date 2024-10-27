@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
-import "./../public/styles.css";
+import './styles.css'; // Correct import after moving the file
+
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
